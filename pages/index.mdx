@@ -1,0 +1,49 @@
+# 介绍
+
+收录了一些适合在 MDX 中使用的 React 组件。
+
+### 安装
+
+1. 安装模块：
+
+```bash
+npm i mdx-elements
+```
+
+2. 安装 peer 依赖
+
+```
+npx install-peerdeps mdx-elements
+```
+
+### 组件：
+
+1. [Image 组件](./image.mdx): 基于 antd 的图片组件。
+2. [Tweet 组件](./tweet.mdx): 内嵌推文。
+3. [Badge 组件](./badge.mdx): 用于显示 npm 安装量、GitHub star 数等 badge 参数。
+
+### 使用方法
+
+1. 在[Nexrta](https://wiki.dev-hub.top/docs/Website/Nextra)中使用
+   修改`theme.config.jsx`文件。
+
+```js file=theme.config.jsx highlight=7
+import { components } from 'mdx-elements';
+
+export default {
+  project: {
+    link: 'https://github.com/try-to-fly/mdx-components',
+  },
+  components,
+};
+```
+
+### 注意事项
+
+1. nextj 中需要配置，不然会有报错:
+
+```js
+{
+  transpilePackages: ['react-tweet'];
+}
+```
