@@ -1,6 +1,6 @@
 {
   "name": "mdx-elements",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collection of React components suitable for use in MDX.",
   "main": "dist/index.js",
   "scripts": {
