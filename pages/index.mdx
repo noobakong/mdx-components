@@ -29,11 +29,11 @@ npx install-peerdeps mdx-elements
    修改`theme.config.jsx`文件。
 
 ```js file=theme.config.jsx highlight=7
-import { components } from 'mdx-elements';
+import { components } from "mdx-elements";
 
 export default {
   project: {
-    link: 'https://github.com/try-to-fly/mdx-components',
+    link: "https://github.com/try-to-fly/mdx-components",
   },
   components,
 };
@@ -45,6 +45,6 @@ export default {
 
 ```js
 {
-  transpilePackages: ['react-tweet'];
+  transpilePackages: ["react-tweet", "mdx-elements"],
 }
 ```
