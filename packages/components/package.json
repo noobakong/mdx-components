@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "react-lite-youtube-embed": "^2.3.52",
-    "react-tweet": "^2.0.1"
+    "react-tweet": "^2.0.1",
+    "xmind-embed-viewer": "^1.1.0"
   },
   "devDependencies": {
     "antd": "^5.5.0",

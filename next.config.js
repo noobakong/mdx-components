@@ -4,5 +4,5 @@ const withNextra = require('nextra')({
 });
 
 module.exports = withNextra({
-  transpilePackages: ['react-tweet'],
+  transpilePackages: ['react-tweet', 'xmind-embed-viewer'],
 });
