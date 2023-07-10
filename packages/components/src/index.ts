@@ -9,3 +9,5 @@ export const components = {
   Badge,
   YouTube,
 };
+
+export default components;
