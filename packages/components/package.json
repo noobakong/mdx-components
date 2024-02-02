@@ -1,19 +1,20 @@
 {
-  "name": "mdx-elements",
-  "version": "0.0.1",
+  "name": "mdx-elements-akong",
+  "version": "0.0.2",
   "description": "Collection of React components suitable for use in MDX.",
+  "author": "smile",
+  "keywords": [],
+  "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "smile",
-  "license": "ISC",
+  "type": "module",
   "dependencies": {
     "react-lite-youtube-embed": "^2.3.52",
     "react-tweet": "^2.0.1",
-    "xmind-embed-viewer": "^1.1.0"
+    "xmind-embed-viewer": "^1.2.0"
   },
   "devDependencies": {
     "antd": "^5.5.0",
